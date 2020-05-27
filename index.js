@@ -12,7 +12,7 @@ try {
     const payload = JSON.stringify(github.context.payload, undefined, 2)
     console.log(`PAYLOAD ${payload}!`);
     const time = (new Date()).toTimeString();
-    core.setOutput("version-type", 'patch');
+    core.setOutput("versionType", 'patch');
 } catch (error) {
     core.setFailed(error.message);
 }

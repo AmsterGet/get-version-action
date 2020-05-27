@@ -6,7 +6,7 @@ This action calculates version type according to event.
 
 ## Outputs
 
-### `version-type`
+### `versionType`
 
 The version type.
 

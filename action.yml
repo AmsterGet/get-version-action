@@ -3,10 +3,10 @@ description: 'Calculates the version type from event'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
-    required: true
+    required: false
     default: 'World'
 outputs:
-  version-type: # id of output
+  versionType: # id of output
     description: 'The version type'
 runs:
   using: 'node12'
